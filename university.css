@@ -190,6 +190,7 @@ nav .fa{
 }
 
 @media(max-width:1200px) and (min-width:701px){
+    
     .text-box h1{
     font-size: 40px;
     line-height: 1.4;
@@ -256,7 +257,157 @@ nav .fa{
     }
 }
 
+@media(max-width:1200px) and (min-width:601px) and (max-height: 550px) and (min-height: 351px){
+    .header{
+        min-height: 70vh;
+    }
+    .text-box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: left;
+    }
+    
+    .text-box h1{
+        font-size: 24px;
+    }
+    
+    .text-box p{
+        margin: 20px 0 30px;
+        font-size: 12px;
+        color: #fff;
+        width: 43%;
+    }
+    
+    .hero-btn{
+        
+       
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 12px;
+        background: transparent;
+        left: 76%;
+        transform: translate(-50%,-250%);
+        cursor: pointer;
+    }
+    
+    .hero-btn::before{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background: white;
+        top: 50%;
+    
+        left: -14px;
+    }
+    
+    
+    .hero-btn:hover::before{
+    
+        background: white;
+     
+    }
+    
+    
+    .hero-btn::after{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background:white;
+        bottom: 50%;
+        right: -13px;
+    }
+    
+    .hero-btn:hover::after{
+        background: white;
+    }
+    
+}
 
+
+@media(max-width:1200px) and (min-width:701px) and (max-height: 350px){
+    .header{
+        min-height: 100vh;
+    }
+    .text-box{
+        width: 90%;
+        color: #fff;
+        position: absolute;
+        top: 77%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: left;
+    }
+    
+    .text-box h1{
+        font-size: 22px;
+    }
+    
+    .text-box p{
+        margin: 20px 0 30px;
+        font-size: 11px;
+        color: #fff;
+        width: 43%;
+    }
+    
+    .hero-btn{
+        position: relative;
+        text-decoration: none;
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 12px 34px;
+        font-size: 12px;
+        background: transparent;
+        left: 76%;
+        transform: translate(-50%,-250%);
+        cursor: pointer;
+    }
+    
+    .hero-btn::before{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background: white;
+        top: 50%;
+    
+        left: -14px;
+    }
+    
+    
+    .hero-btn:hover::before{
+    
+        background: white;
+     
+    }
+    
+    
+    .hero-btn::after{
+        content: '';
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        background:white;
+        bottom: 50%;
+        right: -13px;
+    }
+    
+    .hero-btn:hover::after{
+        background: white;
+    }
+    
+    
+        
+}
+    
 
 
 /*-------------coourse-------------------------*/
@@ -342,7 +493,7 @@ h3{
     }
 
     p{
-        font-size: 15px;
+        font-size: 14px;
         font-weight: 330;
         line-height: 17px;
     }
@@ -579,7 +730,7 @@ h3{
 @media(max-width: 1200px) and (min-width: 701px){
     .cta h1{
         font-size: 20px;
-        padding: 0 10px;
+        padding: 0 87px;
     }
 }
 
