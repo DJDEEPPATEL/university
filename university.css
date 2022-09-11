@@ -282,7 +282,7 @@ nav .fa{
         width: 43%;
     }
     
-    .hero-btn{
+    .text-box .hero-btn{
         
        
         position: relative;
@@ -297,38 +297,6 @@ nav .fa{
         cursor: pointer;
     }
     
-    .hero-btn::before{
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 1px;
-        background: white;
-        top: 50%;
-    
-        left: -14px;
-    }
-    
-    
-    .hero-btn:hover::before{
-    
-        background: white;
-     
-    }
-    
-    
-    .hero-btn::after{
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 1px;
-        background:white;
-        bottom: 50%;
-        right: -13px;
-    }
-    
-    .hero-btn:hover::after{
-        background: white;
-    }
     
 }
 
@@ -358,7 +326,7 @@ nav .fa{
         width: 43%;
     }
     
-    .hero-btn{
+    .text-box .hero-btn{
         position: relative;
         text-decoration: none;
         color: #fff;
@@ -370,40 +338,6 @@ nav .fa{
         transform: translate(-50%,-250%);
         cursor: pointer;
     }
-    
-    .hero-btn::before{
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 1px;
-        background: white;
-        top: 50%;
-    
-        left: -14px;
-    }
-    
-    
-    .hero-btn:hover::before{
-    
-        background: white;
-     
-    }
-    
-    
-    .hero-btn::after{
-        content: '';
-        position: absolute;
-        width: 25px;
-        height: 1px;
-        background:white;
-        bottom: 50%;
-        right: -13px;
-    }
-    
-    .hero-btn:hover::after{
-        background: white;
-    }
-    
     
         
 }
