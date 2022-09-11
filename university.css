@@ -298,6 +298,11 @@ nav .fa{
     }
     
     
+    .hero-btn:hover{
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 0s;
+    }
 }
 
 
@@ -339,7 +344,12 @@ nav .fa{
         cursor: pointer;
     }
     
-        
+     
+    .hero-btn:hover{
+        border: 1px solid #f44336;
+        background: #f44336;
+        transition: 0s; 
+    }
 }
     
 
