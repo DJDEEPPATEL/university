@@ -24,39 +24,6 @@ nav {
 nav img {
     width: 150px;
 }
- 
-.fafa {
-    float: right;
-    margin: 10px;
-    padding: 10px;
-    font-size: 23px;
-    color: white;
-    outline: none;
-    cursor: pointer;
-    display: block;
-}
-
-.fafa .fa{
-    display: block;
-}
-
-
-.faasfa {
-    float: left;
-   margin-top: 40px;
-   margin-left: 20px;
-    font-size: 23px;
-    color: white;
-    outline: none;
-    cursor: pointer;
-}
-
-
-.faasfa .fa{
-    display: block;
-}
-
-
 
 .nav-links {
     flex: 1;
@@ -210,14 +177,37 @@ nav .fa{
         transition: all .8s;
      }
    
-    .fafa{
-        display: block;
+     
+    .fafa {
+    float: right;
+    margin: 10px;
+    padding: 10px;
+    font-size: 23px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    display: block;
     }
 
-    .faasfa{
-        display: block;
+    .fafa .fa{
+    display: block;
     }
-    
+
+
+    .faasfa {
+    float: left;
+    margin-top: 40px;
+    margin-left: 20px;
+    font-size: 23px;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    }
+
+
+    .faasfa .fa{
+    display: block;
+    }
     
     .nav-links ul{
         
