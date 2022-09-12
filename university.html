@@ -8,6 +8,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap" rel="stylesheet">
+<script
+      src="https://code.jquery.com/jquery-3.6.1.min.js"
+      integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
+      crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">   
 <title>University</title>
 </head>
@@ -15,8 +20,10 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="./eduford_img/logo.png"></a>
-            <div class="nav-links" id="navlinks">
-                <i class="fa fa-times" onclick="hidemenu()"></i>
+           
+            <div class="fafa"><i class="fa fa-bars"></i> </div>
+            <div class="nav-links">
+                <div class="faasfa">  <i class="fa fa-times"></i> </div>
                 <ul>
                     <li><a href="">HOME</a></li>
                     <li><a href="">ABOUT</a></li>
@@ -25,7 +32,7 @@
                     <li><a href="">CONTACT</a></li>
                 </ul>
             </div> 
-            <i class="fa fa-bars" onclick="showmenu()"></i>
+           
         </nav>
 
     <div class="text-box">
@@ -186,20 +193,26 @@
     <p>Made By Deep Patel</i></p>
 </section>
 
+<!-----------------query---------------------------->
+
+<script src="https://code.jquery.com/jquery-3/6.0.min.js"></script>
+
 <script>
 
-    var navlink = document.getElementById("navlinks");
+    $(document).ready(function(){
+        $(".fafa i").click(function(){
+            $(".nav-links").toggleClass("nav-menu");
+        })
+    })
 
-    function showmenu(){
-        navlinks.style.right = "0";
-    }
-
-    
-    function hidemenu(){
-        navlinks.style.right = "-200px";
-    }
+    $(document).ready(function(){
+        $(".faasfa i").click(function(){
+            $(".nav-links").toggleClass("nav-menu");
+        })
+    })
 
 </script>
+
 
 </body>
 </html>
